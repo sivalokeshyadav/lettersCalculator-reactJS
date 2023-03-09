@@ -1,0 +1,52 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #1d976c,
+    #219a6f,
+    #93f9b9,
+    #e4e7eb
+  );
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #ffffff;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.label-element {
+  padding: 20px;
+}
+
+.input-container {
+  border-radius: 5px;
+  color: #93f9b9;
+  background-color: #219a6f;
+  border-color: #ffffff;
+}
+
+.para-element {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #1d976c;
+}
+
+.img-container {
+}
